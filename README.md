@@ -15,7 +15,7 @@ NSFW source for [hentaigasm.com](https://hentaigasm.com)
    
 
 ## Files
-- `index.min.json` – what the app reads
-- `index.json` – pretty version
-- `apk/aniyomi-all.hentaigasm-v14.1.apk` – the extension
-- `repo.json` – optional metadata
+- `index.min.json`
+- `index.json`
+- `apk/aniyomi-all.hentaigasm-v14.1.apk`
+- `repo.json`
