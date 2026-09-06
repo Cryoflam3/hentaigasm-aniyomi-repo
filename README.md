@@ -12,14 +12,7 @@ NSFW source for [hentaigasm.com](https://hentaigasm.com)
 - Configurable domain
 
 ## Install in Aniyomi / Anikku
-
-1. Host this folder somewhere publicly accessible (GitHub raw, Cloudflare, etc.)
-2. In the app go to **Settings → Browse → Extension repositories**
-3. Add the URL to `index.min.json`  
-   Example:  
-   `https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/index.min.json`
-
-4. Go to **Browse → Extensions** and install **Aniyomi: Hentaigasm**
+   
 
 ## Files
 - `index.min.json` – what the app reads
