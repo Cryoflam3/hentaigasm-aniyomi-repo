@@ -9,5 +9,5 @@
   "device_installation": "not-tested",
   "playback": "not-tested",
   "publicly_hosted": true,
-  "live_http_verification": "pending"
+  "live_http_verification": "passed"
 }

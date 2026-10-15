@@ -1,27 +1,56 @@
-# Cryoflam3 Hentaigasm 14.2
+# Hentaigasm for Nekoyomi
 
-Rebuilt Hentaigasm with a new icon, versionCode 2 and a new owner-controlled signing key.
+Hentaigasm 14.2 is available with a new icon and a personal signing key. The repository's APK and icon paths have also been fixed.
 
-## Repository URL
+## Add the repository
 
+In Nekoyomi, open **More → Settings → Browse → Anime extension repos**, tap **Add**, and paste:
+
+```text
 https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/index.min.json
+```
 
-Add this URL under Nekoyomi anime extension repositories. Do not use `/repo.json/index.min.json`.
+Refresh **Browse → Anime Extensions**. Enable **Show NSFW content** if Hentaigasm does not appear.
 
-## Migration required
+You can also [download the APK directly](https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/apk/aniyomi-all.hentaigasm-v14.2.apk).
 
-This APK has a different signer from the original 14.1. It cannot be installed over the old APK as an ordinary update. Back up library/source settings before uninstalling the old Hentaigasm extension. Install 14.2, verify/trust the certificate when prompted, and restore settings as needed. Keep the same personal key for future updates.
+## Already using Hentaigasm?
 
-Certificate SHA256: `f2c157f8a9afe9e18210f63fdd804b4a7dfdf0389bb01d8415d5c272f59fa6c6`
+Version 14.2 uses a different signing key from the original 14.1 APK. Android will not install it over that older APK as a normal update.
 
-APK SHA256: `305a3bd7175b77c5e3ed765b82e3c37a681d53da4b724e5c2cb809637f97b7aa`
+Back up your library and source settings before uninstalling the old extension. Then install 14.2 and restore any settings you need. If Nekoyomi asks you to trust the extension, check this certificate fingerprint:
 
-## Validation and limits
+```text
+f2c157f8a9afe9e18210f63fdd804b4a7dfdf0389bb01d8415d5c272f59fa6c6
+```
 
-Release compilation, APK signature, zip alignment, package/version metadata, anime feature, NSFW flag, source-class presence and new icon passed checks. Device installation, source loading, playback and in-place updates remain untested. No claim that all playback bugs have been fixed.
+Future builds need to use this same key to update this installation. The private key is kept outside GitHub.
 
-## Attribution and permission
+## What changed?
 
-Original source: https://github.com/aniyomi-addons/hentaigasm-ext. Original authors retain their rights. Build scaffold: https://github.com/Claudemirovsky/cursedyomi-extensions (Apache-2.0). The owner Cryoflam3 confirmed permission from the Hentaigasm developer to publicly publish modified APKs on 2026-10-15; no separate permission document was independently verified. This statement does not grant third parties a new blanket redistribution license. Original notices are preserved under `attribution/`.
+- New crimson and violet H/play icon.
+- Version 14.2, with Android versionCode 2.
+- A new personal signing key.
+- Correct APK and icon download paths, plus repository metadata with the actual signing fingerprint.
 
-Only icon/version and build configuration changed; the scraper logic was not repaired or runtime-tested. Signing keys/passwords are private and excluded from this repository.
+The package name and NSFW setting are unchanged. The source's browsing and video-extraction code was not changed.
+
+## What has been tested?
+
+The release build completed successfully. Checks passed for the APK signature, alignment, package name, version, anime-extension metadata, source class and icon.
+
+The live JSON files, APK and icon returned HTTP 200. The downloaded files matched the checked build. See [live download results](live-validation.json) and [build validation](validation.json).
+
+Installation, browsing and playback have not been tested on a phone. A successful build and download do not guarantee that the source website or its video servers will work.
+
+APK SHA-256:
+
+```text
+305a3bd7175b77c5e3ed765b82e3c37a681d53da4b724e5c2cb809637f97b7aa
+```
+
+## Credits and permission
+
+The extension comes from [aniyomi-addons/hentaigasm-ext](https://github.com/aniyomi-addons/hentaigasm-ext). The build setup comes from [Cursedyomi](https://github.com/Claudemirovsky/cursedyomi-extensions), which uses Apache-2.0. Their original notices are in [attribution](attribution/).
+
+The Hentaigasm source README specifies personal use. Cryoflam3 confirmed permission from its developer to publish modified APKs on October 15, 2026. No separate permission document was independently verified. This confirmation does not grant other people a new redistribution license; the original authors retain their rights.

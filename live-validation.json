@@ -1,0 +1,31 @@
+{
+  "verified_at_utc": "2026-10-15T23:16:12.086154+00:00",
+  "base_url": "https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/",
+  "checks": {
+    "repo.json": {
+      "status": 200,
+      "sha256": "c93b795fb385e6bc4ff646f24dd41b51bee4f08d287389db2ea7f13e32933a3a",
+      "bytes": 263
+    },
+    "index.min.json": {
+      "status": 200,
+      "sha256": "71646e0d506f59d25fce19a5e806ddd78c9838bfa7c8b311e2e20929b661e886",
+      "bytes": 289
+    },
+    "index.json": {
+      "status": 200,
+      "sha256": "83dfe8e27b80fb56549b786585b2824bc871851b513e9cf67dfacf431c6faa1e",
+      "bytes": 403
+    },
+    "apk/aniyomi-all.hentaigasm-v14.2.apk": {
+      "status": 200,
+      "sha256": "305a3bd7175b77c5e3ed765b82e3c37a681d53da4b724e5c2cb809637f97b7aa",
+      "bytes": 115633
+    },
+    "icon/eu.kanade.tachiyomi.animeextension.all.hentaigasm.png": {
+      "status": 200,
+      "sha256": "36d40d36a9f0379f25e0ca2ee197d9e13239dfe8e594916f297638aba61cf3aa",
+      "bytes": 44703
+    }
+  }
+}
