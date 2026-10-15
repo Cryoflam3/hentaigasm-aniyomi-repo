@@ -2,10 +2,10 @@
   {
     "name": "Aniyomi: Hentaigasm",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.hentaigasm",
-    "apk": "aniyomi-all.hentaigasm-v14.2.apk",
+    "apk": "aniyomi-all.hentaigasm-v14.3.apk",
     "lang": "all",
-    "code": 2,
-    "version": "14.2",
+    "code": 3,
+    "version": "14.3",
     "nsfw": 1,
     "sources": [
       {

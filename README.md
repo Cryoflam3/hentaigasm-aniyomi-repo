@@ -1,6 +1,6 @@
 # Hentaigasm for Nekoyomi
 
-Hentaigasm 14.2 is available with a new icon and a personal signing key. The repository's APK and icon paths have also been fixed.
+Hentaigasm 14.3 fixes the French filter and settings text. It keeps the icon and personal signing key introduced in 14.2. The repository's APK and icon paths have also been fixed.
 
 ## Add the repository
 
@@ -12,13 +12,15 @@ https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/index.m
 
 Refresh **Browse → Anime Extensions**. Enable **Show NSFW content** if Hentaigasm does not appear.
 
-You can also [download the APK directly](https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/apk/aniyomi-all.hentaigasm-v14.2.apk).
+You can also [download the APK directly](https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/apk/aniyomi-all.hentaigasm-v14.3.apk).
 
 ## Already using Hentaigasm?
 
-Version 14.2 uses a different signing key from the original 14.1 APK. Android will not install it over that older APK as a normal update.
+**Already using our 14.2?** Update to 14.3 normally. Both use the same signing key; no uninstall is needed.
 
-Back up your library and source settings before uninstalling the old extension. Then install 14.2 and restore any settings you need. If Nekoyomi asks you to trust the extension, check this certificate fingerprint:
+Versions 14.2 and 14.3 use a different signing key from the original 14.1 APK. Android will not install it over that older APK as a normal update.
+
+Back up your library and source settings before uninstalling the old extension. Then install 14.3 and restore any settings you need. If Nekoyomi asks you to trust the extension, check this certificate fingerprint:
 
 ```text
 f2c157f8a9afe9e18210f63fdd804b4a7dfdf0389bb01d8415d5c272f59fa6c6
@@ -27,6 +29,10 @@ f2c157f8a9afe9e18210f63fdd804b4a7dfdf0389bb01d8415d5c272f59fa6c6
 Future builds need to use this same key to update this installation. The private key is kept outside GitHub.
 
 ## What changed?
+
+Version 14.3 changes the filter note, sorting options, the “All” genre option and domain settings to English. The compiled APK was checked for the English labels and the absence of the old French text. It uses versionCode 3. Search parameters, genre URLs and source identity are unchanged.
+
+The earlier 14.2 release introduced:
 
 - New crimson and violet H/play icon.
 - Version 14.2, with Android versionCode 2.
@@ -46,7 +52,7 @@ Installation, browsing and playback have not been tested on a phone. A successfu
 APK SHA-256:
 
 ```text
-305a3bd7175b77c5e3ed765b82e3c37a681d53da4b724e5c2cb809637f97b7aa
+72ddaaed7e12e28f0d569899d9f9e39748acd917942d0582a4926601e6137763
 ```
 
 ## Credits and permission
