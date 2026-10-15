@@ -1,7 +1,8 @@
 {
   "meta": {
-    "name": "Hentaigasm (NSFW)",
-    "website": "https://hentaigasm.com",
-    "signingKeyFingerprint": "no-info"
+    "name": "Cryoflam3 Personal Hentaigasm",
+    "shortName": "Hentaigasm",
+    "website": "https://github.com/Cryoflam3/hentaigasm-aniyomi-repo",
+    "signingKeyFingerprint": "f2c157f8a9afe9e18210f63fdd804b4a7dfdf0389bb01d8415d5c272f59fa6c6"
   }
 }

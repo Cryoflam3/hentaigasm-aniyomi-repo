@@ -1,0 +1,13 @@
+{
+  "version": "14.2",
+  "versionCode": 2,
+  "package": "eu.kanade.tachiyomi.animeextension.all.hentaigasm",
+  "certificate_sha256": "f2c157f8a9afe9e18210f63fdd804b4a7dfdf0389bb01d8415d5c272f59fa6c6",
+  "apk_sha256": "305a3bd7175b77c5e3ed765b82e3c37a681d53da4b724e5c2cb809637f97b7aa",
+  "signature_verified": true,
+  "zip_alignment_verified": true,
+  "device_installation": "not-tested",
+  "playback": "not-tested",
+  "publicly_hosted": true,
+  "live_http_verification": "pending"
+}
